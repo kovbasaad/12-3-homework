@@ -49,7 +49,7 @@ ORDER BY rental_id DESC LIMIT 5;
 ```sql
 SELECT LOWER(REPLACE (first_name, 'LL', 'PP')), LOWER (last_name) 
 FROM sakila.customer
-WHERE active  = 1
+WHERE active = 1
 AND first_name LIKE 'Kelly'
 OR first_name LIKE 'Willie';
 ```
