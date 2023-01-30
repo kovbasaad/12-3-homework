@@ -54,3 +54,12 @@ AND first_name LIKE 'Kelly'
 OR first_name LIKE 'Willie';
 ```
 ![4-1](https://github.com/kovbasaad/12-3-homework/blob/main/img/4-1.JPG)
+
+```sql
+SELECT CONCAT_WS(' ', LOWER(REPLACE (first_name, 'LL', 'PP')), LOWER (last_name))
+FROM sakila.customer
+WHERE active = 1
+AND first_name LIKE 'Kelly'
+OR first_name LIKE 'Willie';
+```
+![4-2](https://github.com/kovbasaad/12-3-homework/blob/main/img/4-2.JPG)
