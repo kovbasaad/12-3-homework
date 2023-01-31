@@ -34,7 +34,7 @@ AND amount > 10.00;
 ```sql
 SELECT * 
 FROM sakila.rental
-ORDER BY rental_id DESC LIMIT 5;
+ORDER BY rental_date DESC LIMIT 5;
 ```
 ![3-1](https://github.com/kovbasaad/12-3-homework/blob/main/img/3-1.JPG)
 
